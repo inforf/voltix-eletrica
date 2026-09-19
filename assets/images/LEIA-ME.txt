@@ -1,0 +1,1 @@
+Envie os arquivos .webp deste pacote para a pasta assets/images/ do repositório inforf/voltix-eletrica. O diretório já foi criado.
