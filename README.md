@@ -13,7 +13,9 @@ Demonstrar a criação de uma página comercial moderna, responsiva e orientada 
 - JavaScript para menu mobile e interação demonstrativa de orçamento
 - Seções de serviços, diferenciais, depoimentos, FAQ e contato
 - Identidade visual própria em grafite e amarelo
-- SEO básico, favicon e cuidados de acessibilidade estrutural\n- Página de privacidade\n- Sem rastreamento analítico ativo nesta versão
+- SEO básico, favicon e cuidados de acessibilidade estrutural
+- Página de privacidade
+- Sem rastreamento analítico ativo nesta versão
 - Conteúdo comercial claramente identificado como demonstrativo
 
 ## Demonstração
