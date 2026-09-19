@@ -18,6 +18,20 @@ Demonstrar a criação de uma página comercial moderna, responsiva e orientada 
 - Sem rastreamento analítico ativo nesta versão
 - Conteúdo comercial claramente identificado como demonstrativo
 
+## Estrutura do projeto
+
+```text
+├── index.html
+├── privacidade.html
+├── README.md
+├── assets/
+│   └── images/
+├── css/
+│   └── style.css
+└── js/
+    └── main.js
+```
+
 ## Demonstração
 
 Demonstração publicada em:
