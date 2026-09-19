@@ -1,1 +1,18 @@
-const menuButton=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(menuButton&&nav){menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open))});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}))}const modal=document.querySelector('.demo-modal');const openButtons=document.querySelectorAll('.demo-action');const closeButtons=document.querySelectorAll('.close,.close-secondary');function openModal(){if(modal){modal.hidden=false;document.body.style.overflow='hidden'}}function closeModal(){if(modal){modal.hidden=true;document.body.style.overflow=''}}openButtons.forEach(b=>b.addEventListener('click',openModal));closeButtons.forEach(b=>b.addEventListener('click',closeModal));if(modal)modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+const menuButton=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.nav');
+if(menuButton&&nav){menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');
+menuButton.setAttribute('aria-expanded',String(open))});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');
+menuButton.setAttribute('aria-expanded','false')}))}
+
+const modal=document.querySelector('.demo-modal');
+const openButtons=document.querySelectorAll('.demo-action');
+const closeButtons=document.querySelectorAll('.close,.close-secondary');
+function openModal(){if(modal){modal.hidden=false;
+document.body.style.overflow='hidden'}}
+
+function closeModal(){if(modal){modal.hidden=true;
+document.body.style.overflow=''}}openButtons.forEach(b=>b.addEventListener('click',openModal));
+closeButtons.forEach(b=>b.addEventListener('click',closeModal));
+if(modal)modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
