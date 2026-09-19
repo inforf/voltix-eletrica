@@ -13,12 +13,12 @@ Demonstrar a criação de uma página comercial moderna, responsiva e orientada 
 - JavaScript para menu mobile e interação demonstrativa de orçamento
 - Seções de serviços, diferenciais, depoimentos, FAQ e contato
 - Identidade visual própria em grafite e amarelo
-- SEO básico e cuidados de acessibilidade estrutural
+- SEO básico, favicon e cuidados de acessibilidade estrutural\n- Página de privacidade\n- Sem rastreamento analítico ativo nesta versão
 - Conteúdo comercial claramente identificado como demonstrativo
 
 ## Demonstração
 
-Após habilitar o GitHub Pages, a demonstração ficará disponível em:
+Demonstração publicada em:
 
 https://inforf.github.io/voltix-eletrica/
 
