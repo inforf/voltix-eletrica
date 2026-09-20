@@ -1,5 +1,3 @@
-// global.js — privacidade e recursos compartilhados da Voltix
-
 (function () {
   const CONSENT_KEY = 'voltix-analytics-consent';
 
