@@ -1,6 +1,3 @@
-// main.js — interações específicas da página Voltix
-
-// Menu de navegação em telas menores
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.nav');
 
@@ -18,7 +15,6 @@ if (menuButton && navigation) {
   });
 }
 
-// Modal demonstrativo de solicitação de orçamento
 const demoModal = document.querySelector('.demo-modal');
 const openModalButtons = document.querySelectorAll('.demo-action');
 const closeModalButtons = document.querySelectorAll('.close, .close-secondary');
