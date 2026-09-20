@@ -568,8 +568,7 @@ button, a {
   border-radius: 10px;
   background: var(--panel)
 }
-
-/* Fotografias do projeto */ .hero-visual {
+.hero-visual {
   overflow: visible;
   border-radius: 18px
 }
@@ -665,8 +664,7 @@ button, a {
     height: 210px
   }
 }
-
-/* Consentimento de análise */ .cookie-banner {
+.cookie-banner {
   position: fixed;
   z-index: 200;
   left: 20px;
