@@ -29,7 +29,8 @@ Demonstrar a criação de uma página comercial moderna, responsiva e orientada 
 ├── css/
 │   └── style.css
 └── js/
-    └── main.js
+    ├── main.js       # Interações específicas da página
+    └── global.js     # Clarity, consentimento e recursos globais
 ```
 
 ## Demonstração
