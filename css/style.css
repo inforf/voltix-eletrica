@@ -1,4 +1,4 @@
-: root {
+:root {
   --bg: #090c0f;
   --panel: #12171c;
   --yellow: #ffd51f;
@@ -32,7 +32,7 @@ button, a {
   position: absolute;
   left: -9999px
 }
-.skip-link: focus {
+.skip-link:focus {
   left: 16px;
   top: 16px;
   z-index: 999;
@@ -89,7 +89,7 @@ button, a {
   text-decoration: none;
   font-size: .9rem
 }
-.nav a: hover {
+.nav a:hover {
   color: var(--yellow)
 }
 .menu-toggle {
@@ -173,7 +173,7 @@ button, a {
   color: #d4d8dc;
   font-size: .84rem
 }
-.trust span: first-letter {
+.trust span:first-letter {
   color: var(--yellow)
 }
 .hero-visual {
@@ -333,7 +333,7 @@ button, a {
   padding: 10px 0;
   border-bottom: 1px solid var(--line)
 }
-.checks li: before {
+.checks li::before {
   content: "✓";
   display: inline-grid;
   place-items: center;
@@ -615,7 +615,7 @@ button, a {
   display: block;
   object-fit: cover
 }
-.feature-visual: after {
+.feature-visual::after {
   content: "";
   position: absolute;
   inset: 0;
