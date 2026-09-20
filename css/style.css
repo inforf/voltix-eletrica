@@ -136,3 +136,14 @@ button,a{font:inherit}
 .feature-visual>img{height:360px}
 .faq-photo{height:210px}
 }
+
+
+/* Consentimento de análise */
+.cookie-banner{position:fixed;z-index:200;left:20px;right:20px;bottom:20px;width:min(900px,calc(100% - 40px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:22px;border:1px solid rgba(255,213,31,.4);border-radius:14px;background:#12171c;color:#f5f6f7;box-shadow:0 20px 70px rgba(0,0,0,.55)}
+.cookie-banner[hidden]{display:none}
+.cookie-banner strong{display:block;margin-bottom:5px}
+.cookie-banner p{margin:0;color:#c8cdd2;font-size:.9rem}
+.cookie-banner a{color:var(--yellow)}
+.cookie-actions{display:flex;gap:10px;flex-shrink:0}
+.privacy-reset{margin-top:5px}
+@media(max-width:700px){.cookie-banner{align-items:stretch;flex-direction:column;gap:16px}.cookie-actions{display:grid;grid-template-columns:1fr 1fr}.cookie-actions .btn{width:100%}}
