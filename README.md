@@ -15,7 +15,7 @@ Demonstrar a criação de uma página comercial moderna, responsiva e orientada 
 - Identidade visual própria em grafite e amarelo
 - SEO básico, favicon e cuidados de acessibilidade estrutural
 - Página de privacidade
-- Sem rastreamento analítico ativo nesta versão
+- Microsoft Clarity com consentimento controlado pela API Consent V2
 - Conteúdo comercial claramente identificado como demonstrativo
 
 ## Estrutura do projeto
